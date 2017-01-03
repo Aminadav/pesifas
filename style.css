@@ -1,0 +1,340 @@
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #FFFFFF;
+	font-size: 14px;
+	text-align: center;
+	margin: auto;
+	background: url(images/reka.jpg) repeat left top;
+}
+
+body, th, td, input, textarea, select, option {
+	font-family: arial;
+
+}
+.clear{clear:both;}
+
+table .special {border:1px solid #A2238E;}
+
+
+
+h1, h2, h3 {
+	font-family: arial;
+	font-weight: bold;
+	color: #A2238E;
+	
+}
+
+h1 {
+	letter-spacing:0;
+	font-size: 2em;
+}
+
+h2 {
+	letter-spacing:0;
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1em;
+}
+
+p, ul, ol {
+	line-height: 150%;
+}
+p {margin-bottom:-7px;}
+
+a {
+	color: #A2238E;
+}
+
+a:hover {
+	color: #A2238E;
+	text-decoration:underline;
+}
+
+hr {
+	display: none;
+}
+
+img {border:none;}
+/*.tmuna_left {background-color:#d8a1d0; float: left;	margin: 5px 9px 1px 0px; padding:5px; width:128px; height:96px;}
+.tmuna_right {background-color:#d8a1d0; float: right; margin: 5px 0px 1px 9px; padding:5px; width:128px; height:96px;}*/
+.tmuna_left {background-color:#d8a1d0; float: left;	margin: 5px 9px 1px 0px; padding:5px;}
+.tmuna_right {background-color:#d8a1d0; float: right; margin: 5px 0px 1px 9px; padding:5px;}
+.tmuna_special {background-color:#d8a1d0;clear:both; margin-top:20px; margin-bottom:10px; padding:5px;}
+
+#whyus { list-style-image: url(images/note.png); }
+#mofaim {list-style-image: url(images/masks.png);}
+
+
+
+#container {	
+	margin: auto;
+	width: 700px;
+	/*height: 100%;*/
+	margin: 0 auto;
+	text-align: center;
+	position:relative;
+}
+
+
+
+#preka{
+	position:absolute;
+	top:0;
+	left:0;
+	width: 777px;
+	height:770px;
+	background: #ffffff;
+
+  /* for IE */
+	opacity:0.3;
+	text-align: right;
+
+}
+
+#inText{
+	top:0;
+	left:0px;
+	position:absolute;
+	width: 777px;
+	text-align: center;
+}
+
+#text{
+	width: 777px;
+}
+
+#flash {
+	margin: auto;
+	width: 577px;
+	height: 179px;
+	text-align: center;
+}
+
+
+
+#header {
+
+	width: 777px;
+	height: 138px;
+	text-align: center;
+}
+
+
+#bannerIn {
+	text-align: center;
+	width: 777px;
+	height: 138px;
+	background: url(images/theater_header_png.png) no-repeat center center;
+ 
+}
+
+
+#menu {
+
+	text-align: center;
+	width: 777px;
+	height:27px;
+	color: #ffffff;
+	font-size: 15px;
+	
+}
+
+.menu1{
+	height:27px;
+	text-align: center;
+	float:right;
+	vertical-align: middle;
+}
+
+.menu2{
+	text-align: center;
+	width: 20px;
+	float:right;
+}
+
+/** תפריט עליון**/
+#menu {
+	text-align: center;
+	width: 777px;
+	height: 27px;
+	padding: 7px 0 0 0;margin:0;
+	background: url(images/topbar.jpg) repeat-x center center;
+
+}
+
+#menu ul {
+	margin: 0;
+	list-style: none;
+	line-height: normal;
+}
+
+#menu li {
+	display: inline;
+}
+
+#menu a {
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	border: none;
+	text-decoration: none;
+	padding:5px;
+}
+
+#menu a:hover, #menu .current_page_item a {
+}
+
+#menu a:hover {
+	text-decoration: underline;
+}
+
+#menu .first {
+}
+
+/**תפריט עליון**/
+
+
+
+#logo {
+	margin: auto;
+	width: 652px;
+	height: 185px;
+	background:url(images/pesifas_logo_png.png) no-repeat center center;}
+
+#inner {
+	margin: auto;
+	width: 570px;
+	height: 135px;
+	text-align:right;
+
+		
+}
+
+#inPageText{
+	margin: auto;
+	width: 777px;
+	text-align:right;
+	display: block;
+	margin-bottom:50px;
+}
+
+#wellcome {
+	width: 570px;
+	height:42px;
+	text-align:right;
+}
+
+#homepageText{ direction:rtl;
+	text-align:right;
+	font-size:110%;
+	color:#000000;
+	width: 550px;	
+	margin-bottom:5px;			
+		
+}
+
+#rightMenu{
+	padding-top: 30px;
+	padding-right: 10px;
+	text-align:right;	
+	width: 200px;	
+	float:right;
+
+		
+}
+#rightMenu ul{
+	list-style: none;}
+#rightMenu li{
+	height: 70px;
+}
+
+#rightMenu img{
+	border: 0;
+}
+
+
+#leftText{
+direction:rtl;
+	text-align:right;
+	font-size:105%;
+	color:#000000;
+	width: 68%;	
+	float:right;
+	padding: 10px 0px 50px 30px;
+	min-height:350px;
+	overflow:visible;
+}
+
+
+
+#fun {
+	width: 540px;
+	/*height:42px;*/
+	text-align:left;
+}
+
+#but{
+	margin: auto;
+	text-align:center;
+	width: 570px;
+
+}
+
+#space{
+
+	width: 20px;
+}
+
+#credit{
+	padding-top:20px;
+	height: 25px;
+	margin: auto;
+	text-align: center;
+	font-size:90%;
+
+}
+
+#links{
+	clear: both;
+	margin-top:30px;
+	height: 15px;
+	margin: auto;
+	text-align: center;
+	font-size:90%;}
+
+#links a{
+	color:#000;
+	text-decoration:none;
+	/*font-weight:bold*/}
+#links a:hover{
+	color:#000;
+	text-decoration:underline;
+	/*font-weight:bold*/}
+	
+	
+.letter {background:#EDE5D2; padding:5px; margin-top:20px; border:1px solid #A2238E;}
+.letter .bold {font-weight:bold;}
+.bold {font-weight:bold; color:#A2238E;}
+
+#video {text-align:center; margin:10px 0px 3px 0px; /*border:1px solid #999999;*/}
+
+/*slideViewer's basic CSS:*/
+
+/*preload classes*/
+#mygalone{float:right;}
+.svw {width: 50px; height: 20px; background: #fff;}
+.svw ul {position: relative; left: -999em;} 
+/*core classes*/
+.stripViewer {  position: relative; overflow: hidden;  border: 5px solid #d8a1d0;   margin: 0 0 1px 0; }
+.stripViewer ul { /* this is your UL of images */ margin: 0; padding: 0; position: relative; left: 0; top: 0; width: 1%; list-style-type: none; }
+.stripViewer ul li {float:left;}
+.stripTransmitter { overflow: auto; width: 1%;float:right;}
+.stripTransmitter ul { margin: 0; padding: 0; position: relative; list-style-type: none; }
+.stripTransmitter ul li{ width: 20px; float:left; margin: 0 1px 1px 0; }
+.stripTransmitter a{ font: bold 10px Verdana, Arial; text-align: center; line-height: 22px; background: #d8a1d0; color: #fff; text-decoration: none; display: block; }
+.stripTransmitter a:hover, a.current{ background: #fff; color: #d8a1d0; }  /*tooltips formatting*/
